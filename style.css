@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Segment7';
+    src: url('G7_Segment_7a.ttf') format('truetype');
+}
+
 /* Global colors */
 :root {
     --background: #1A1B26;
@@ -32,4 +37,14 @@ h1 {
     background-color: var(--secondary-color);
     border: #BB9AF7 4px solid;
     border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+#timer {
+    font-family: 'Segment7', monospace;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    text-align: center;
 }
