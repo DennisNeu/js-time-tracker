@@ -32,6 +32,11 @@ h1 {
     margin-bottom: 0.5em;
 }
 
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
 .box {
     color: var(--text-color);
     background-color: var(--secondary-color);
@@ -40,9 +45,18 @@ h1 {
     margin-bottom: 4rem;
 }
 
-#timer {
+.timer {
     font-family: 'Segment7', monospace;
     font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.timer-smaller {
+    font-family: 'Segment7', monospace;
+    font-size: 3rem;
     font-weight: bold;
     padding: 1rem 2rem;
     border-radius: 10px;
